@@ -1,0 +1,20 @@
+Please send your query for Git Remote Support Service:
+Telegram: https://t.me/montasir2022
+WhatsApp: https://web.whatsapp.com/send?number=01768231949
+Email: linuxkeepup@gmail.com
+
+#!/bin/bash
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+git --version
+sudo git config --global user.name "name"
+sudo git config --global user.email name@gmail.com
+sudo apt update
+sudo -i
+ssh-keygen -t rsa -b 4096 -C "name@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat /root/.ssh/id_rsa.pub
+
+#git #github #gitlab #GitSupport
